@@ -28,7 +28,24 @@ body {
 	clear: both;
 }
 
-/* шапка */	
+a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: calc(24/16);
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+button {
+	border: none;
+	font-size: 14px;
+	line-height: calc(24/16);
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 
 header {
 	background: #000000;
@@ -87,7 +104,6 @@ h2 {
 .feature-item {
 	text-align: center;
 	width: 33.333333%;
-	float: left;
 	padding-right: 60px;
 }
 
@@ -107,27 +123,68 @@ h2 {
 .news-and-photo div {
 	background: #ffffff url(../img/bg-block.jpg);
 	color: #000000;
-	padding: 50px 80px;
+	padding-top: 53px;
+	min-height: 420px;
+}
+
+.news-and-photo h2 {
+	margin: 0;
+}
+
+.news {
+	float: left;
+	width: 50%;
+	padding-left: 80px;
+	padding-right: 40px;
 }
 
 .news a {
 	text-decoration: none;
 }
 
-.news-and-photo .btn {
-	width: 140px
-	padding: 13px;
+.news p {
+	font-size: 14px;
+	line-height: calc(24/16);
+	color: #000000;
+}
+
+.news-date {
+	font-size: 14px;
+	text-transform: lowercase;
+	color: #000000;
+	display: inline-block;
+}
+
+.news .btn {
+	width: 140px; 
+ 	padding: 13px; 
+}
+
+.photo {
+	float: right;
+	width: 50%;
+	padding-left: 90px;
+	padding-right: 80px;
+}
+
+.photo img  {
+	padding: 7px;
+	background-color: #ffffff;
+	margin-top: 16px;
+	margin-bottom: 38px;
+}
+
+.photo .btn {
+	width: 140px; 
+ 	padding: 13px;
+ 	margin-right: 20px;
+}
+
+.photo .btn:last-child {
+	margin-right: 0;
 }
 
 .btn {
-	text-decoration: none;
-	color: #ffffff;
 	background-color: #000000;
-	font-size: 14px;
-	line-height: calc(24/14);
 	border: none;
-	text-transform: uppercase;
-	font-weight: bold;
-	width: 140px
-	height: 44px;
 }
